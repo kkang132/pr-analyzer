@@ -63,7 +63,7 @@ cargo install --path .
 ### Build manually
 
 ```bash
-git clone github.com/kkang132/rust-project
+git clone github.com/kkang132/pr-analyzer
 cd pr-analyzer
 cargo build --release
 # Binary is at ./target/release/pr-analyzer

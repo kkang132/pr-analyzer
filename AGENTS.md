@@ -60,10 +60,10 @@ Each agent works in an isolated git worktree. This prevents concurrent work from
 
 ```bash
 # Create a worktree for a task
-git worktree add ../rust-project-<agent>-<task> -b <agent>/<type>/<name> main
+git worktree add ../pr-analyzer-<agent>-<task> -b <agent>/<type>/<name> main
 
 # When done (after merge), clean up
-git worktree remove ../rust-project-<agent>-<task>
+git worktree remove ../pr-analyzer-<agent>-<task>
 ```
 
 If worktrees are unavailable or impractical, a regular branch is acceptable. The agent must not carry uncommitted changes on another branch while switching.
