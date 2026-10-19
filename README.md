@@ -1,11 +1,5 @@
 # pr-analyzer
 
-<!-- Uncomment and update once hosted on GitHub:
-[![Build Status](https://img.shields.io/github/actions/workflow/status/OWNER/pr-analyzer/ci.yml?branch=main)](https://github.com/OWNER/pr-analyzer/actions)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![crates.io](https://img.shields.io/crates/v/pr-analyzer.svg)](https://crates.io/crates/pr-analyzer)
--->
-
 A command-line tool that takes a GitHub pull request URL and returns a structured risk assessment across three dimensions: **security**, **complexity**, and **style/architecture conformance**. The wider aim is to show what current frontier models and human steering can do together in early 2026. Some call the practice agentic engineering.
 
 ## What This Project Demonstrates
